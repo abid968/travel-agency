@@ -57,90 +57,197 @@ nav ul{
 #description{
     color: #FFF;
     font-family: Mulish;
-font-size: 64px;
-font-weight: 800;
-text-align: center;
-padding-top: 106px;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 106px;
 }
 #description-text{
     width: 676px;
     color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding-left: 500px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 500px;
 }
 #where-go{
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FFF;
-border-style: none;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 #when{
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FFF;
-border-style: none;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 #select-type{
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FFF;
-border-style: none;
-color: rgba(19, 19, 24, 0.50);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-style: none;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 }
 .input{
     padding-left: 500px;
 }
 #find-btn{
     color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-weight: 700;
-width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-border-style: none;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
 }
 #items{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    margin-left: 95px;
+}
+#read-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    margin-left: 95px;
+}
+.li-items{
+    margin-left: 75px;
+}
+#text-des{
+    margin-left: 100px;
+}
+#text-des-2{
+    margin-left: 100px;
+}
+#img-2{
+    width: 540px;
+height: 550px;
+border-radius: 16px;
+display: flex;
+margin-left: 460px;
+}
+#choose-text{
     color: #131318;
 text-align: center;
 font-family: Mulish;
 font-size: 40px;
 font-weight: 800;
-display: flex;
-margin-left: 95px;
 }
-#read-btn{
-    color: #FFF;
+#destination-choose{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
 text-align: center;
 font-family: Mulish;
-font-size: 20px;
-font-weight: 800;
-width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-border-style: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-left: 600px;
+}
+.container{
+    display: flex;
+}
+.imgs-1{
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-2{
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+fill: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-3{
+    width: 374px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-4{
+    width: 474px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-5{
+    width: 274px;
+height: 286px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-6{
+    width: 473px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.imgs-7{
+    width: 673px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+background-position: center;
+background-size: cover;
+}
+.sub-class1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sub-class3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

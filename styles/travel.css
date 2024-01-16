@@ -160,7 +160,7 @@ nav ul{
 height: 550px;
 border-radius: 16px;
 display: flex;
-margin-left: 460px;
+margin-left: 650px;
 }
 #choose-text{
     color: #131318;
@@ -470,7 +470,7 @@ footer{
 .footer-img{
     display: flex;
     gap: 15px;
-    margin-left: 760px;
+    margin-left: 830px;
     padding-top: 100px;
     
 }
@@ -551,6 +551,14 @@ footer p{
     margin-top: 40px;
     margin-left: 20px;
 }
+.transparent{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
 #submit-btn{
     width: 100px;
     height: 30px;
@@ -566,4 +574,25 @@ footer p{
    padding-top: 5px;
    font-weight: 800;
    padding-top: 50px;
+}
+
+/* media screen */
+@media screen and (max-width: 600px) {
+    .bg-image{
+        width: 335px;
+height: 500px;
+margin: 108px 20px 20px;
+display: flex;
+flex-direction: column;  
+    }   
+}
+@media screen and (max-width:600px) {
+    .sub-class1{
+        height: 400px;
+        width: 300px;
+    }
+
+
+       
+    
 }
